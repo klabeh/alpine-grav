@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer "Marko Hoffmann <klabehgge@gmail.com>" architecture="x86_64"
+LABEL maintainer "Dominic Taylor <dominic@yobasystems.co.uk>" architecture="x86_64"
 ENV TERM="xterm" \
     GRAV_VERSION="1.5.5"
 
