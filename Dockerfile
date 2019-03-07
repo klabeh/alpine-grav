@@ -1,7 +1,7 @@
-FROM yobasystems/alpine:3.8.1-amd64
-LABEL maintainer "Dominic Taylor <dominic@yobasystems.co.uk>" architecture="AMD64/x86_64" architecture="AMD64/x86_64" version="1.5.3" date="02-nov-2018"
+FROM alpine:latest
+LABEL maintainer "Marko Hoffmann <klabehgge@gmail.com>" architecture="x86_64"
 ENV TERM="xterm" \
-    GRAV_VERSION="1.5.3"
+    GRAV_VERSION="1.5.5"
 
 RUN apk update && \
     apk add bash less vim nginx ca-certificates git tzdata curl yaml zip \
