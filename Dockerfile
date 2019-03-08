@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer "Dominic Taylor <dominic@yobasystems.co.uk>" architecture="x86_64"
 ENV TERM="xterm" \
-    GRAV_VERSION="1.5.5"
+    GRAV_VERSION="1.5.8"
 
 RUN apk update && \
     apk add bash less vim nginx ca-certificates git tzdata curl yaml zip \
