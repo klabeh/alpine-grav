@@ -12,7 +12,7 @@ This Docker image [(yobasystems/alpine-grav)](https://hub.docker.com/r/yobasyste
 
   * Minimal size only 43 MB and only 7 layers
   * Memory usage is minimal on a simple install
-  * [GRAV](https://getgrav.org/) 1.5.5
+  * [GRAV](https://getgrav.org/) 1.5.8
   * [PHP](http://pkgs.alpinelinux.org/package/main/x86/php) 7
   * [Nginx](http://pkgs.alpinelinux.org/package/main/x86/nginx)
   * Memory usage is around 55mb on a simple install
